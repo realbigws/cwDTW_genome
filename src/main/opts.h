@@ -44,7 +44,12 @@ inline int GetOpts(int argc, char **argv, options* opts_) {
     };
 
     if((argc !=5 && argc != 7 && argc != 9 && argc != 11 && argc != 13 && argc != 15 && argc != 17 && argc != 19 && argc != 21 ) && argc >= 3 || (argc == 2 && argv[1][0] != '-' && argv[1][1] != 'h') || argc == 1) {
-	EX_TRACE("----------- cwDTW_genome ---------- \n");
+	EX_TRACE("\n");
+	EX_TRACE("           ___ _____ _ _ _  \n");
+	EX_TRACE(" ___ _ _ _|   \\_   _/ | | \\ \n");
+	EX_TRACE("|  _| | | | | | | | | | | | \n");
+	EX_TRACE("|___|_____|___/ |_| |_____|  genome \n");
+	EX_TRACE("\n");
 	EX_TRACE("version v0.03 (NOV 4 2017) \n");
 	EX_TRACE("-------------------------------------------------------------\n");
 	EX_TRACE("required:\n");
